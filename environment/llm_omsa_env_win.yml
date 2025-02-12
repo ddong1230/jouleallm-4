@@ -1,0 +1,22 @@
+name: llm_omsa_prac
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python
+- pip
+- matplotlib
+- numpy
+- scikit-learn
+- notebook
+- jupyterlab
+- scipy==1.10.0
+- pandas
+- nltk
+- bs4
+- seaborn
+- langchain
+- langchain-community
+- supabase
+- pip: 
+  - httpx[http2]
